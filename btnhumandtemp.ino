@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL4h9sHTNRX"
+#define BLYNK_TEMPLATE_ID "TMPL4********"
 #define BLYNK_TEMPLATE_NAME "Light"
-#define BLYNK_AUTH_TOKEN "6uIFmwwLfmOZ-0PXCP1KdeH8aPIMgcne"
+#define BLYNK_AUTH_TOKEN "6uI*************"
 /* Comment this out to disable prints and save space */
 #define BLYNK_PRINT Serial
 
@@ -20,8 +20,8 @@ DHT dht (DHTPIN, DHTTYPE);
 // Your WiFi credentials.
 // Set password to "" for open networks.
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "FoxHome";
-char pass[] = "ceco0804";
+char ssid[] = "Your_Name_Wifi";
+char pass[] = "Password_WIFI";
 BLYNK_CONNECTED() {
   Blynk.syncVirtual(button1_vpin);
 }
